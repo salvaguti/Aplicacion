@@ -15,10 +15,10 @@ namespace EJ24
         {  
            if (car >= '0' && car <= '9')  // Si es digito
                 return " --> Es un dígito";
-            else if ((car >= 'a' && car <= 'z') || (car >= 'A' && car <= 'Z'))
+            else if ((car >= 'a' && car <= 'z') || (car >= 'A' && car <= 'Z'))  // si es carácter
                 return " --> Es una letra";
             else
-                return " --> No es ni letra ni dígito";
+                return " --> No es ni letra ni dígito";   // Ni letra ni caracter 
         }
 
         static void Main(string[] args)
