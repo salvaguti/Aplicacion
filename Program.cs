@@ -12,8 +12,8 @@ namespace EJ24
     {
         
         private static string TipoCaracter(char car)
-        {
-           if (car >= '0' && car <= '9')
+        {  
+           if (car >= '0' && car <= '9')  // Si es digito
                 return " --> Es un dígito";
             else if ((car >= 'a' && car <= 'z') || (car >= 'A' && car <= 'Z'))
                 return " --> Es una letra";
